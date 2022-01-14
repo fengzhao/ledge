@@ -55,8 +55,8 @@ jobs:
         with:
           ACCESS_TOKEN: ${{ secrets.SuperSecret }}
           BRANCH: gh-pages
-          REPOSITORY_NAME: "phodal/do"
-          FOLDER: dist/static
+          REPOSITORY_NAME: "fengzhao/ledge"
+          FOLDER: src/
           CLEAN: true
           CLEAN_EXCLUDE: '["CNAME"]'
         continue-on-error: true
