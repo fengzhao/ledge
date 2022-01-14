@@ -54,6 +54,8 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
 #         ACCESS_TOKEN: ${{ secrets.SuperSecret }}
+
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
           REPOSITORY_NAME: "fengzhao/ledge"
           FOLDER: dist/static
